@@ -12,3 +12,15 @@ Write a bash script to simulate a denial-of-service/command injection attack usi
 Create a network-layer firewall script using iptables to block malicious IP addresses.
 
 Modify our C program to implement application-layer Deep Packet Inspection (DPI) to detect and drop malicious payloads from spoofed, authorized IPs.
+
+Prerequisites
+
+To build and run this simulation, you will need a Linux environment with the following tools installed:
+
+gcc (GNU Compiler Collection)
+
+make
+
+nc (Netcat)
+
+iptables (Requires sudo privileges)
