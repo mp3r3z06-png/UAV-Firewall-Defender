@@ -4,6 +4,7 @@ This repository contains the code and instructions for the UAV Firewall Defender
 Project Overview
 In this project, we will:
 Write a vulnerable C-based socket listener acting as a UAV ground station.
+
 Write a bash script to simulate a denial-of-service/command injection attack using netcat.
 Create a network-layer firewall script using iptables to block malicious IP addresses.
 Modify our C program to implement application-layer Deep Packet Inspection (DPI) to detect and drop malicious payloads from spoofed, authorized IPs.
